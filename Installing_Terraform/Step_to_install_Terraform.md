@@ -53,3 +53,4 @@ Type the below command from any directory/path and you should view thw twerrafor
 ```
    terraform --help
 ```
+(terraform_help.PNG)
