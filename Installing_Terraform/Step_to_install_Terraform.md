@@ -15,6 +15,7 @@
    - Click the `Environment Variables` button at the very bottom. On the Environment Variables window, select `Path` from the User             `variables` section and click Edit.
    - On the `Edit Environment variable` window, click the `New` button
    - Once it’s active, click the `Browse` button and navigate to the folder of `Terraform.exe` Bindary and add it to Path environment          variables is.
+6. Test the installation by using the `Validation` part mentioned at the bottom of the page.
    
 ## MAC/Linux
 1. Navigate to the preferred directory, to install the Terraform
