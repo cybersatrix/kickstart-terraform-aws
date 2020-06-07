@@ -46,3 +46,10 @@
    - source /profile
 ```
  Now you can access the terraform from any directory
+
+### Validation
+
+Type the below command from any directory/path and you should view thw twerraform help 
+```
+   terraform --help
+```
