@@ -1,0 +1,9 @@
+# Steps to Install Terraform 
+
+1. Download the Terraform application based on your respective OS and architecture from below link
+	 [Download Terraform](https://www.terraform.io/downloads.html)
+2. Terraform is distributed as a single binary.
+3. Install Terraform by unzipping it and moving it to your preferred directory.
+4. Unzipped directory will consist of Binary <terraform.exe>.
+5. To Run the terraform from any location in Command  Prompt, set the add the installed directory in the “System PATH”.
+		
