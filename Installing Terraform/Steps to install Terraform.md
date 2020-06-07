@@ -1,4 +1,4 @@
-#Steps to Install Terraform 
+# Steps to Install Terraform 
 
 1. Download the Terraform application based on your respective OS and architecture from below 
  > [Download Terraform](https://www.terraform.io/downloads.html)
