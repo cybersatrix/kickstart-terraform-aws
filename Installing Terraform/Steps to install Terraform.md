@@ -39,10 +39,10 @@
 ```
 5. set the variable in the PATH. I have a `.profile` shell environment in `/home/ubuntu` path. Thus setting PATH on the same shell environment.
 ```
-   In the path `/home/ubuntu`
-   vi .profile
-   at the bottom add the below line
-   export PATH="$PATH:/home/ubuntu/Terraform"
-   source /profile
+   In the path `/home/ubuntu`, open the shell environment using your preferred editor
+   - vi .profile
+   in the `.profile` sheell, add the below line at the bottom 
+   - export PATH="$PATH:/home/ubuntu/Terraform"
+   - source /profile
 ```
  Now you can access the terraform from any directory
