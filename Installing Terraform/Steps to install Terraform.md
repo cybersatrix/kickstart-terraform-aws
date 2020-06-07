@@ -1,5 +1,6 @@
 # Steps to Install Terraform 
 
+## Windows
 1. Download the Terraform application based on your respective OS and architecture from below 
  > [Download Terraform](https://www.terraform.io/downloads.html)
 2. Terraform is distributed as a single binary package.
@@ -15,12 +16,33 @@
    - On the `Edit Environment variable` window, click the `New` button
    - Once it’s active, click the `Browse` button and navigate to the folder of `Terraform.exe` Bindary and add it to Path environment          variables is.
    
-   **MAC/Linux**
-   ```
-     Go to ~/.bash_profile
-     add the belowlink at the end
-     export PATH="$PATH:<terraform unzipped location>"
-   ```
-    
-		
- 
+## MAC/Linux**
+1. Navigate to the preferred directory, to install the Terraform
+```
+   cd /home/ubuntu
+```
+2. Downloading terraform in the above path using `wget` command
+```
+   wget https://releases.hashicorp.com/terraform/0.9.8/terraform_0.9.8_linux_amd64.zip
+```
+3. Unzip the file in the same location, using below command
+```
+   In MAC use command `brew install terraform`
+```
+```
+   unzip terraform_0.12.18_linux_amd64.zip
+```
+4. Create a directory "Terraform" in path `/home/ubuntu` and move the binary package into the directory
+```
+   mkdir Terraform
+   sudo mv terraform Terraform/
+```
+5. set the variable in the PATH. I have a `.profile` shell environment in `/home/ubuntu` path. Thus setting PATH on the same shell environment.
+```
+   In the path `/home/ubuntu`
+   vi .profile
+   at the bottom add the below line
+   export PATH="$PATH:/home/ubuntu/Terraform"
+   source /profile
+```
+ Now you can access the terraform from any directory
